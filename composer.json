@@ -1,0 +1,36 @@
+{
+    "name": "enwebs/darkblue",
+    "description": "Darkblue Theme For Flarum",
+    "keywords": ["flarum"],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "homepage": "https://enwebs.net",
+    "support": {
+        "issues": "https://github.com/retsill/enwebs/darkblue",
+        "source": "https://github.comretsill/enwebs/darkblue",
+    },
+    "require": {
+        "flarum/core": "*"
+    },
+    "authors": [{
+        "name": "Llister",
+        "email": "me@enwebs.net",
+        "role": "Developer"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Enwebs\\DarkBlue\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "DarkBlue",
+            "category": "theme",
+            "icon": {
+                "name": "fab fa-affiliatetheme",
+                "backgroundColor": "#2f6cca",
+                "color": "#FFF"
+            }
+        }
+    }
+}

@@ -1,0 +1,181 @@
+body {
+	background: #1c1c2d;
+	color: #111;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, Cantarell, Oxygen, Roboto, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.5;
+	overflow-y: scroll;
+}
+.Dropdown-menu {
+	background: #1c1c2d;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 2px 6px #29283e;
+	box-shadow: 0 2px 6px #29283e;
+}
+.NotificationGrid {
+	background: #232238;
+}
+.Hero {
+	background: #161623;
+}
+.darkenBackground {
+	background: #232238;
+}
+.FormControl {
+	background-color: #232238;
+}
+.Checkbox--switch {
+	color: #6c7d93;
+}
+.Composer {
+	pointer-events: auto;
+	-webkit-box-shadow: 0 2px 6px #29283e;
+	box-shadow: 0 2px 6px #232238;
+}
+.Post {
+	top: 10px;
+}
+.Post-body {
+	color: #8584ab;
+}
+.social {
+	color: #FFF;
+	display: inline-block;
+	padding: 5px;
+	text-decoration: none;
+}
+.footer {
+	padding: 30px 0 20px 0;
+	background-color: #161623;
+	color: #878c94;
+	.title {
+		text-align: left;
+		color: #fff;
+		font-size: 20px;
+	}
+	.social-icon {
+		padding: 0px;
+		margin: 0px;
+		a {
+			display: inline-block;
+			color: #fff;
+			font-size: 25px;
+			padding: 5px;
+		}
+	}
+	.acount-icon {
+		a {
+			display: block;
+			color: #fff;
+			font-size: 16px;
+			padding: 5px;
+			text-decoration: none;
+		}
+		.fa {
+			margin-right: 25px;
+		}
+	}
+	.category {
+		a {
+			text-decoration: none;
+			color: #fff;
+			display: inline-block;
+			padding: 5px 20px;
+			margin: 1px;
+			border-radius: 4px;
+			margin-top: 6px;
+			background-color: black;
+			border: solid 1px #fff;
+		}
+	}
+	.payment {
+		margin: 0px;
+		padding: 0px;
+		list-style-type: none;
+		li {
+			list-style-type: none;
+			a {
+				text-decoration: none;
+				display: inline-block;
+				color: #fff;
+				float: left;
+				font-size: 20px;
+				padding: 10px 10px;
+			}
+		}
+	}
+}
+.down-footer {
+	padding: 20px 0 20px 0;
+	background-color: #1a1a29;
+	color: #878c94;
+}
+.foot-block {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+.texto-centro {
+	text-align: center;
+}
+.DiscussionHero {
+	.item-title {
+		display: block;
+		margin-top: 15px;
+		color: #4d4b79;
+	}
+}
+@media (min-width: 768px) {
+	.App-header {
+		background: #1c1c2d;
+	}
+	.Composer {
+		background: #1c1c2d;
+	}
+	.minimized {
+		.Composer-content {
+			padding: 20px 15px;
+			background: #29283e;
+		}
+	}
+	.Post {
+		background: #29283e;
+		margin-top: 30px;
+	}
+}
+@media (min-width: 992px) {
+	.sideNavContainer {
+		display: flex;
+		background: #29283e;
+		padding: 10px;
+		margin-top: 20px;
+		border-radius: 15px;
+	}
+	.sideNav {
+		>ul {
+			margin-top: 10px;
+			width: 200px;
+			padding: 0 8px 0 8px;
+			width: 200px;
+			background: #232238;
+			border-radius: 5px;
+		}
+		width: 200px;
+		background: #232238;
+		border-radius: 5px;
+		flex-shrink: 0;
+		margin-right: 30px;
+	}
+	.sideNavOffset {
+		margin-top: 10px;
+		flex: 1;
+		min-width: 0;
+	}
+	.Composer {
+		&:not(.fullScreen) {
+			margin-left: 100px;
+			margin-right: 100px;
+			margin-bottom: 20px;
+		}
+	}
+}
