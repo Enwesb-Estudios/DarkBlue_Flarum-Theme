@@ -7,7 +7,7 @@
     "homepage": "https://enwebs.net",
     "support": {
         "issues": "https://github.com/retsill/enwebs/darkblue",
-        "source": "https://github.comretsill/enwebs/darkblue",
+        "source": "https://github.comretsill/enwebs/darkblue"
     },
     "require": {
         "flarum/core": "*"
